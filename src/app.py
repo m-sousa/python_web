@@ -38,4 +38,4 @@ def ddelete_book_by_isbn(isbn):
             return {'message': 'Item deleted successfully'}
     return {'message': 'Item doesn''t exist'}, 404
 
-app.run(port=9000, host='localhost', debug=True)
+app.run(port=9000, host='0.0.0.0', debug=True)
